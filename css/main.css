@@ -10,6 +10,11 @@
 
 /* Fix for responsive images */
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /*TEXT STYLE*/
 
 body { 
@@ -35,17 +40,21 @@ h1 {
   text-align: center;
 }
 
-.question-prompt {
+.question-prompt, .above-arrow {
   text-align: center;
   font-size: 20px;
   margin-top: 50px;
   color: #ffcda0;
+  display: flex;
+  align-items: column;
+  justify-content: center;
 }
 
 
 .arrow {
-  padding-top: 98px;
+  padding-top: 20px;
   border :none;
+  border-style: none;
 }
 
 .questions {
@@ -152,6 +161,7 @@ button {
   font-size: 25px;
   border-radius: 10px;
   border: solid #759f96;
+  outline: none;
 }
 
 a {
