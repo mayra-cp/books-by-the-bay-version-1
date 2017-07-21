@@ -11,8 +11,24 @@
 
 
 $(document).ready(function () {
-	console.log("ready!");
 
+$('.select-button').on('click', function() {
+	$('.dropdown-content').toggle()
+} )
+
+$('.options').on('click', function() {
+	$(this).parents('.question').hide();
+
+	$(this).parents('.question').next().show();
+})
+
+// var lastOption = ('#question-three')
+
+// if (lastOption === ) {
+// 	$('.bookstore-set').on('click', function () {
+// 		$(this).parents('.question').hide();
+// 	});
+// }
 
 
 

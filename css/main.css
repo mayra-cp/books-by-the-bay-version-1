@@ -21,8 +21,6 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-
-
 h1 { 
   font-family: 'Fresca', sans-serif;
   font-size: 90px;
@@ -40,7 +38,7 @@ h1 {
   text-align: center;
 }
 
-.question-prompt, .above-arrow {
+.question-prompt, .text-above-arrow {
   text-align: center;
   font-size: 20px;
   margin-top: 50px;
@@ -50,94 +48,104 @@ h1 {
   justify-content: center;
 }
 
-
 .arrow {
   padding-top: 20px;
-  border :none;
   border-style: none;
+  margin: 8px;
+  width: 30px;
 }
 
-.questions {
+.question-set {
   font-size: 25px;
   position: relative;
   width: 100%;
   padding-top: 200px;
   padding-left: 250px;
   color: #759f96;
-}
-/*.question-set {
-
-}*/
-
-/*.question-one {
-
-}*/
-
-.question-container {
-  font-size: 25px;
-  position: relative;
-  width: 100%;
-  padding-top: 200px;
-  padding-left: 250px;
+  display: inline-block;
 }
 
-/*.select-one {
+/*#question-one {
 
-}*/
-
-
-.select-option {
-  list-style: none;
-   /*display: none;*/
-}
-
-/*.question-one {
-
-}*/
-
-.option {
-  font-size: 25px;
-  position: relative;
-  width: 100%;
-}
-
-/*.option-one {
-
-}*/
-
-/*.question-two {
-
-}*/
-
-/*.select-two {
-
-}*/
-
-/*.option-two {
-
-}*/
-
-/*.question-three {
-
-}*/
-
-/*.select-three {
-
-}*/
-
-/*.option-three {
-
-}*/
-
-.bookstores {
-  text-align: center;
-
-}
+} NOT IN MY NOTEBOOK LIST*/
 
 .check-out {
   font-size: 40px;
   text-transform: uppercase;
   color: #084959;
+}
+
+/*.buttons {
+
+}*/
+
+.info-buttons {
+  background: none;
+  margin: 8px;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: solid #759f96;
+  outline: none;
+  width: 100%;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #759f96;
+}
+
+/*QUESTIONS & DROPDOWNS*/
+
+.question {
+  display: none;
+  width: 100%;
+  clear:both;
+}
+
+.question:first-of-type {
+  display: block;
+}
+
+.question-content {
+  float: left;
+
+}
+
+.question .dropdown {
+  float: left;
+  margin: 15px;
+  position: relative;
+  display: inline-block;
+  min-width: 140px;
+}
+
+.dropdown .select-button {
+    background-color: #dde7e0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f4f7f5;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 8px;
+}
+
+/*BOOKSTORES*/
+
+.bookstore-set {
+  text-align: center;
+  clear: both;
+  display: none;
+  width: 100%;
+  padding: 10px 8px;
+
 }
 
 .bookstore {
@@ -149,25 +157,6 @@ h1 {
 
 }*/
 
-/*.buttons {
-
-}*/
-
-button {
-  padding: 0;
-  background: none;
-  margin: 8px;
-  padding: 8px;
-  font-size: 25px;
-  border-radius: 10px;
-  border: solid #759f96;
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-  color: #759f96;
-}
 
 /*.bookstore-two {
 
@@ -197,13 +186,15 @@ a {
   
 }*/
 
+/*FOOTER*/
+
 footer {
   padding: 50px;
 }
 
-.social-links {
+/*.social-links {
 
-}
+}*/
 
 .p-footer {
   margin-top: 20px;
@@ -236,6 +227,8 @@ hr {
     transform: translateY(-10px);
   }
 }
+
+
 
 
 
