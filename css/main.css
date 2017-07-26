@@ -113,7 +113,7 @@ h1 {
   clear: both;
   display: none;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   margin-top:800px; 
 }
 
@@ -134,19 +134,31 @@ h1 {
 
 .info-buttons {
   background: none;
-  margin: 8px;
+  margin: 8px 20px 50px 8px;
   padding: 10px 20px;
   font-size: 25px;
   border-radius: 5px;
   border: solid #cd5360;
   outline: none;
-  width: 100%;
-  display: inline;
+  display: inline-flex;
+  justify-content: center;
 }
 
 a {
   text-decoration: none;
   color: #cd5360;
+}
+
+.try-again {
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding:10px;
+  font-size: 15px;
+  color: #b37d4e;
+  display: block;
+  border: none;
+  background: none;
 }
 
 /*FOOTER*/
