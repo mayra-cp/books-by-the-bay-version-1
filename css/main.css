@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-
 /* Fix for responsive images */
 
 img {
@@ -21,39 +20,40 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h1 { 
-  font-family: 'Fresca', sans-serif;
-  font-size: 90px;
-  margin-top: 2px;
-  margin-bottom: 5px;
-  color: #ffcda0;
+header {
+  background-image: url(../img/book-image.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 30px;
 }
 
-.book {
-  width: 180px;
-  margin: 100px 0 5px 0;
+h1 { 
+  font-family: 'Neuton', serif;
+  font-size: 90px;
+  color: #286da8;
 }
 
 .intro {
   text-align: center;
+  padding: 60px 30px 200px 30px;
 }
 
-.question-prompt, .text-above-arrow {
+.subtitle {
   text-align: center;
-  font-size: 20px;
-  margin-top: 50px;
-  color: #ffcda0;
-  display: flex;
-  align-items: column;
-  justify-content: center;
+  font-size: 35px;
+  color: #cd5360;
 }
+
+/*ARROW*/
 
 .arrow {
   padding-top: 20px;
   border-style: none;
-  margin: 8px;
   width: 30px;
+  margin: 0 auto;
 }
+
+/*QUESTIONS*/
 
 .question-set {
   font-size: 25px;
@@ -61,42 +61,10 @@ h1 {
   width: 100%;
   padding-top: 200px;
   padding-left: 250px;
-  color: #759f96;
+  padding-bottom: 400px;
+  color: #cd5360;
   display: inline-block;
 }
-
-/*#question-one {
-
-} NOT IN MY NOTEBOOK LIST*/
-
-.check-out {
-  font-size: 40px;
-  text-transform: uppercase;
-  color: #084959;
-}
-
-/*.buttons {
-
-}*/
-
-.info-buttons {
-  background: none;
-  margin: 8px;
-  padding: 10px 20px;
-  font-size: 25px;
-  border-radius: 5px;
-  border: solid #759f96;
-  outline: none;
-  width: 100%;
-  display: inline;
-}
-
-a {
-  text-decoration: none;
-  color: #759f96;
-}
-
-/*QUESTIONS & DROPDOWNS*/
 
 .question {
   display: none;
@@ -110,7 +78,6 @@ a {
 
 .question-content {
   float: left;
-
 }
 
 .question .dropdown {
@@ -122,7 +89,7 @@ a {
 }
 
 .dropdown .select-button {
-    background-color: #dde7e0;
+    background-color: #f5bac6;
     padding: 10px 20px;
     border-radius: 5px;
     width: 100%;
@@ -131,82 +98,69 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f4f7f5;
+    background-color: white;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 5px 8px;
 }
 
+
 /*BOOKSTORES*/
 
 .bookstore-set {
+  position: relative;
   text-align: center;
   clear: both;
   display: none;
   width: 100%;
-  padding: 10px 8px;
-
+  margin-bottom: 100px;
+  margin-top:800px; 
 }
 
 .bookstore {
-  padding: 60px;
-  margin: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
-/*.bookstore-one {
+/*RECOMMENDATION INFO*/
 
-}*/
-
-
-/*.bookstore-two {
-
-}*/
-
-/*.bookstore-three {
-
+.check-out {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #b37d4e;
+  margin-bottom: 10px;
 }
 
-.bookstore-four {
-
+.info-buttons {
+  background: none;
+  margin: 8px;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: solid #cd5360;
+  outline: none;
+  width: 100%;
+  display: inline;
 }
 
-.bookstore-five {
-  
+a {
+  text-decoration: none;
+  color: #cd5360;
 }
-
-.bookstore-six {
-  
-}
-
-.bookstore-seven {
-  
-}
-
-.bookstore-eight {
-  
-}*/
 
 /*FOOTER*/
 
 footer {
-  padding: 50px;
-}
-
-/*.social-links {
-
-}*/
-
-.p-footer {
-  margin-top: 20px;
+  padding: 35px;
+  margin-top: 15px;
   text-align: center;
-  color: #759f96;
-
+  color: #286da8;
 }
 
 hr {
-  border: 1px solid #084959;
+  border: 1px solid #286da8;
 }
-
 
 /*ANIMATIONS*/
 
@@ -227,6 +181,10 @@ hr {
     transform: translateY(-10px);
   }
 }
+
+
+
+
 
 
 
