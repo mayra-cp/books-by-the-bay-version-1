@@ -50,7 +50,6 @@ h1 {
 /*ARROW*/
 
 .arrow {
-  padding-top: 20px;
   border-style: none;
   width: 30px;
   margin: 0 auto;
@@ -63,10 +62,9 @@ h1 {
   position: relative;
   width: 100%;
   padding-top: 200px;
-  padding-left: 250px;
+  padding-left: 100px;
   padding-bottom: 400px;
   color: #cd5360;
-  display: inline-block;
 }
 
 .question {
@@ -168,14 +166,11 @@ a {
 /*FOOTER*/
 
 footer {
-  padding: 35px;
+  padding: 5px;
   margin-top: 15px;
   text-align: center;
-  color: #286da8;
-}
-
-hr {
-  border: 1px solid #286da8;
+  color: #fafafa;
+  font-size: 15px;
 }
 
 /*ANIMATIONS*/
