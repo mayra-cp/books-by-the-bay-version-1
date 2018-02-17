@@ -18,18 +18,21 @@ img {
 
 body { 
   font-family: 'Open Sans Condensed', sans-serif;
+  background-image: url(../img/girl-sf.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
 header {
-  background-image: url(../img/books-bay.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: 30px;
+  margin: 20px;
 }
 
 h1 { 
   font-family: 'Neuton', serif;
-  font-size: 90px;
+  font-size: 85px;
   color: #286da8;
 }
 
@@ -151,10 +154,11 @@ a {
 
 .try-again {
   text-decoration: underline;
+  font-weight: bold;
   text-transform: uppercase;
   margin: 0 auto;
   padding:10px;
-  font-size: 15px;
+  font-size: 18px;
   color: #b37d4e;
   display: block;
   border: none;
