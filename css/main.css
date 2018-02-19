@@ -202,7 +202,9 @@ footer {
   }
 }
 
-
+@media screen and (min-width:1640px) {
+  .question-set { padding: 300px; }
+}
 
 
 
